@@ -2,7 +2,7 @@
 // является ли число чётным (делится ли оно на два без остатка).
 
 Console.Clear();
-Console.Write("Введите число, чтобы узнать является ли оно чётным или нет: ");
+Console.Write("Введите число, чтобы узнать является ли оно чётным: ");
 int volue = Convert.ToInt32(Console.ReadLine());
 bool x = volue%2 == 0;
-Console.WriteLine($"{x} - {volue}");
+Console.WriteLine($"{x}!");
